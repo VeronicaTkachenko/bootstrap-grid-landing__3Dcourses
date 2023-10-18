@@ -1,0 +1,299 @@
+@media (max-width: 1200px) {
+  .advantages__card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .advantages__card-img {
+    margin-bottom: 11px;
+  }
+
+  .course__duration {
+    right: 21px;
+  }
+}
+
+@media (max-width: 992px) {
+  .section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .hero {
+    padding-top: 128px;
+    padding-bottom: 135px;
+  }
+
+  .hero-align {
+    top: -10px;
+  }
+
+  .hero__cont {
+    padding-top: 0;
+  }
+
+  .hero__title {
+    margin-bottom: 17px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 100%;
+  }
+
+  .hero__text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  .advantages {
+    padding: 80px 0 74px;
+  }
+
+  .advantages__cards {
+    align-items: start;
+  }
+
+  .advantages__info {
+    max-width: 100%;
+  }
+
+  .course__duration {
+    right: 25px;
+  }
+
+  .teachers {
+    padding: 75px 0 32px;
+  }
+
+  .teachers__card {
+    margin-bottom: 21px;
+  }
+
+  .courses__card {
+    margin-bottom: 35px;
+  }
+
+  .course__more-button {
+    padding: 20px 56px;
+    margin-top: 28px;
+  }
+  .course__title {
+    margin-bottom: 7px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    padding: 30px 0;
+  }
+
+  .header__logo {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .header__right,
+  .header__left {
+    justify-content: center;
+  }
+
+  .hero {
+    padding-top: 77px;
+  }
+
+  .hero__pic {
+    display: none;
+  }
+
+  .advantages {
+    padding: 80px 0 54px;
+  }
+
+  .advantages__top {
+    margin-bottom: 25px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .advantages__card-img {
+    margin-bottom: 9px;
+  }
+
+  .teachers {
+    padding: 75px 0 55px;
+  }
+
+  .course__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .course__more-button {
+    padding: 20px 48px;
+    margin-top: 10px;
+  }
+
+  .courses__card {
+    margin-bottom: 33px;
+  }
+  .footer__bottom {
+    margin: 0 0 10px 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .header {
+    padding: 25px 0;
+  }
+
+  .header__logo {
+    margin-bottom: 0;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .header__menu {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    z-index: 10;
+    display: none;
+    padding: 0;
+    width: 100vw;
+    height: 65vh;
+    background-color: var(--gray-color);
+    animation: burgerAnimation 0.3s;
+  }
+
+  .menu.header__menu.open ul {
+    margin-top: 75px;
+    gap: 56px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  .menu__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .hero {
+    padding: 45px 0;
+  }
+
+  .hero__button {
+    padding: 20px 54px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .hero__title {
+    margin-bottom: 5px;
+    font-size: 27px;
+    line-height: 110%;
+  }
+
+  .hero__text {
+    margin-bottom: 20px;
+  }
+
+  .header__right {
+    justify-content: start;
+  }
+
+  .header__left {
+    justify-content: end;
+  }
+
+  .advantages {
+    padding: 52px 0 25px;
+  }
+
+  .advantages__top {
+    margin-bottom: 22px;
+  }
+
+  .advantages__card {
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 21px;
+  }
+
+  .advantages__card-img {
+    margin-right: 30px;
+  }
+
+  .advantages__pic {
+    display: none;
+  }
+
+  .advantages__title {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .advantages__text {
+    width: 100%;
+  }
+
+  .teachers {
+    padding: 45px 0 26px;
+  }
+
+  .teachers__title {
+    margin-bottom: 28px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+  }
+
+  .teachers__card {
+    margin-bottom: 23px;
+  }
+
+  .teacher__img {
+    margin-bottom: 27px;
+  }
+
+  .courses {
+    padding: 48px 0 50px;
+  }
+
+  .courses__title {
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+  }
+
+  .course__more-button {
+    margin-top: 81px;
+    padding: 20px 55px;
+  }
+
+  .courses__card {
+    margin-bottom: 32px;
+  }
+}
+
+@keyframes burgerAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
